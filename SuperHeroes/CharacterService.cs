@@ -25,7 +25,7 @@ namespace SuperHeroes
         {
             db.villains.Add(villain);
             db.SaveChanges();
-            Console.WriteLine("Villain was saved" + villain.Name);
+            Console.WriteLine("Villain was hsaved" + villain.Name);
         }
         public List<Hero> ShowHeroes()
         {
